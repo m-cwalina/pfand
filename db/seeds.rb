@@ -25,7 +25,7 @@ user1 = User.new(
   story: "Hi there! I'm Matthias 😊
   After a period of homelessness, I'm trying to rebuild my life while volunteering at a homeless shelter. Thanks for your tips and donations. It helps me and the shelter 😌"
 )
- user1.photo.attach(io: File.open('./app/assets/images/user_images/user1.jpeg'), filename: 'user1.jpeg', content_type: 'image/jpeg')
+  user1.photo.attach(io: File.open('./app/assets/images/user_images/user1.jpeg'), filename: 'user1.jpeg', content_type: 'image/jpeg')
  user1.save!
 
 # Karl is the collector/Pfander
@@ -40,7 +40,7 @@ user2 = User.new(
   story: "Hi there! I'm Karl 😊
   After a period of homelessness, I'm trying to rebuild my life while volunteering at a homeless shelter. Thanks for your tips and donations. It helps me and the shelter 😌"
 )
- user2.photo.attach(io: File.open('./app/assets/images/user_images/user2.jpeg'), filename: 'user2.jpeg', content_type: 'image/jpeg')
+  user2.photo.attach(io: File.open('./app/assets/images/user_images/user2.jpeg'), filename: 'user2.jpeg', content_type: 'image/jpeg')
  user2.save!
 # donor
 user3 = User.new(
@@ -52,7 +52,7 @@ user3 = User.new(
   phone_number: "030 18 46635",
   donor: true
 )
- user3.photo.attach(io: File.open('./app/assets/images/user_images/user3.jpeg'), filename: 'user3.jpeg', content_type: 'image/jpeg')
+  user3.photo.attach(io: File.open('./app/assets/images/user_images/user3.jpeg'), filename: 'user3.jpeg', content_type: 'image/jpeg')
  user3.save!
 
 # donor
@@ -65,7 +65,7 @@ user4 = User.new(
   password: "123456",
   donor: true,
 )
- user4.photo.attach(io: File.open('./app/assets/images/user_images/user4.jpeg'), filename: 'user4.jpeg', content_type: 'image/jpeg')
+  user4.photo.attach(io: File.open('./app/assets/images/user_images/user4.jpeg'), filename: 'user4.jpeg', content_type: 'image/jpeg')
  user4.save!
 
 # donor
@@ -78,7 +78,7 @@ user5 = User.new(
   password: "123456",
   donor: true,
 )
- user5.photo.attach(io: File.open('./app/assets/images/user_images/user5.jpeg'), filename: 'user5.jpeg', content_type: 'image/jpeg')
+  user5.photo.attach(io: File.open('./app/assets/images/user_images/user5.jpeg'), filename: 'user5.jpeg', content_type: 'image/jpeg')
  user5.save!
 
 # donor
@@ -91,10 +91,10 @@ user6 = User.new(
   password: "123456",
   donor: true,
 )
- user6.photo.attach(io: File.open('./app/assets/images/user_images/user6.jpeg'), filename: 'user6.jpeg', content_type: 'image/jpeg')
+  user6.photo.attach(io: File.open('./app/assets/images/user_images/user6.jpeg'), filename: 'user6.jpeg', content_type: 'image/jpeg')
  user6.save!
 
-  # donor
+   donor
 user7 = User.new(
   first_name: "Daniel",
   last_name: Faker::Name.last_name,
@@ -105,7 +105,7 @@ user7 = User.new(
   donor: true,
   )
 
- user7.photo.attach(io: File.open('./app/assets/images/user_images/user7.jpeg'), filename: 'user7.jpeg', content_type: 'image/jpeg')
+  user7.photo.attach(io: File.open('./app/assets/images/user_images/user7.jpeg'), filename: 'user7.jpeg', content_type: 'image/jpeg')
  user7.save!
 
   # donor
@@ -118,7 +118,7 @@ user8 = User.new(
   password: "123456",
   donor: true,
 )
- user8.photo.attach(io: File.open('./app/assets/images/user_images/user8.jpeg'), filename: 'user8.jpeg', content_type: 'image/jpeg')
+  user8.photo.attach(io: File.open('./app/assets/images/user_images/user8.jpeg'), filename: 'user8.jpeg', content_type: 'image/jpeg')
  user8.save!
 
 offer1 = Offer.create!(
