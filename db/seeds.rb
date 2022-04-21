@@ -94,7 +94,6 @@ user6 = User.new(
   user6.photo.attach(io: File.open('./app/assets/images/user_images/user6.jpeg'), filename: 'user6.jpeg', content_type: 'image/jpeg')
  user6.save!
 
- #  donor
 user7 = User.new(
   first_name: "Daniel",
   last_name: Faker::Name.last_name,
