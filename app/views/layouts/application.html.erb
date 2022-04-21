@@ -58,7 +58,7 @@
       </div>
         <input type="checkbox" id="active">
         <% if current_user.photo.attached? %>
-          <label for="active" class="menu-btn user-avatar" style="background-image: url(<%= cl_image_path current_user.photo.key %>)" >
+         <label for="active" class="menu-btn user-avatar" style="background-image: url(<%= cl_image_path current_user.photo.key %>)" >
         <% else %>
           <label for="active" class="menu-btn user-avatar" style="background-image: url(<%= image_path "cover.png" %>)" >
         <% end %>
