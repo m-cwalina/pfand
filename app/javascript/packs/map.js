@@ -1,5 +1,5 @@
 import GMaps from 'gmaps/gmaps.js';
-const image = "https://res.cloudinary.com/dhg4tyuot/image/upload/c_scale,w_18/v1650621894/development/bar-map-3-1086542_xe6bby.png";
+const image = "https://res.cloudinary.com/dhg4tyuot/image/upload/c_scale,w_38/v1650621894/development/bar-map-3-1086542_xe6bby.png";
 
   const mapElement = document.getElementById('map');
   var map;
@@ -9,7 +9,7 @@ const image = "https://res.cloudinary.com/dhg4tyuot/image/upload/c_scale,w_18/v1
 
     const markers = JSON.parse(mapElement.dataset.markers).map( m =>
       {
-      m["icon"] = "https://res.cloudinary.com/dhg4tyuot/image/upload/c_scale,w_18/v1650621894/development/bar-map-3-1086542_xe6bby.png";
+      m["icon"] = "https://res.cloudinary.com/dhg4tyuot/image/upload/c_scale,w_38/v1650621894/development/bar-map-3-1086542_xe6bby.png";
         return m;
       }
       );
