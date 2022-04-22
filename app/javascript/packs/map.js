@@ -1,5 +1,5 @@
 import GMaps from 'gmaps/gmaps.js';
-const image = "https://res.cloudinary.com/yasminek/image/upload/v1638377013/bottle_qy2dlw.png";
+const image = "https://res.cloudinary.com/dhg4tyuot/image/upload/v1650621894/development/bar-map-3-1086542_xe6bby.png";
 
   const mapElement = document.getElementById('map');
   var map;
@@ -9,7 +9,7 @@ const image = "https://res.cloudinary.com/yasminek/image/upload/v1638377013/bott
 
     const markers = JSON.parse(mapElement.dataset.markers).map( m =>
       {
-      m["icon"] = "https://res.cloudinary.com/yasminek/image/upload/v1638377013/bottle_qy2dlw.png";
+      m["icon"] = "https://res.cloudinary.com/dhg4tyuot/image/upload/v1650621894/development/bar-map-3-1086542_xe6bby.png";
         return m;
       }
       );
