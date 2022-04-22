@@ -91,7 +91,7 @@
     </div>
 
     <%= yield %>
-    <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?libraries=places&key=#{ENV['GOOGLE_API_SERVER_KEY']}", 'data-turbolinks-eval': 'false' %>
+    <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?libraries=places&key=#{ENV['GOOGLE_API_BROWSER_KEY']}", 'data-turbolinks-eval': 'false' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true, 'data-turbolinks-eval': 'false' %>
     <%= javascript_pack_tag "map" %>
   </body>
